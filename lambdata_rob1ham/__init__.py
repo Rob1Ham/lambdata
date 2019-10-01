@@ -2,8 +2,6 @@ class Janitor:
     """
     Janitor - a class to help with cleaning up dataframes!
     """
-    from numpy import nan
-    import pandas as pd
 
     def __init__(self, df):
         self.df = df
